@@ -6,6 +6,7 @@ This is a simple Etch-a-Sketch game implemented using HTML, CSS and JavaScript.
 
 - Hovering inside the grid will toggle the color function, which fills every cell when the mouse pointer hovers over it.
 - Clicking the Reset button calls the clear function which provides a clean slate so you can color the grid again.
+- The range slider can be used to toggle between a 2x2 grid and a 100x100 grid. By default, the size of the grid is 16x16.
 
 
 
