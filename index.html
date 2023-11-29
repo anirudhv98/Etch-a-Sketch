@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Etch-a-Sketch</title>
     <link rel="stylesheet" href="./styles.css" />
+    <link href="https://fonts.cdnfonts.com/css/8bit-wonder" rel="stylesheet" />
     <script src="script.js" defer></script>
   </head>
 
@@ -12,9 +13,10 @@
     <div class="main">
       <div class="header">Etch-a-Sketch</div>
       <div class="controls">
-        <button id="black">BLACK</button>
-        <button id="rgb">RGB</button>
-        <button id="reset">RESET</button>
+        <div class="buttons">
+          <button id="black">BLACK</button>
+          <button id="rgb">RGB</button>
+        </div>
         <div class="slidecontainer">
           <input
             type="range"
@@ -27,6 +29,7 @@
         </div>
       </div>
       <div class="container"></div>
+      <button id="reset">RESET</button>
       <div class="footer"></div>
     </div>
   </body>
