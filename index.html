@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Etch-a-Sketch</title>
+    <link rel="stylesheet" href="./styles.css" />
+    <script src="script.js" defer></script>
+  </head>
+
+  <body>
+    <div class="main">
+      <div class="header">Etch-a-Sketch</div>
+      <div class="controls">
+        <button id="black">BLACK</button>
+        <button id="rgb">RGB</button>
+        <button id="reset">RESET</button>
+        <div class="slidecontainer">
+          <input
+            type="range"
+            min="2"
+            max="100"
+            value="16"
+            class="slider"
+            id="myRange"
+          />
+        </div>
+      </div>
+      <div class="container"></div>
+      <div class="footer"></div>
+    </div>
+  </body>
+</html>
