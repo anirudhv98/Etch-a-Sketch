@@ -17,14 +17,6 @@ body
     color: crimson;
 }
 
-.white
-{
-    background-color: white;
-}
-.black 
-{
-    background-color: black;
-}
 .main
 {
     display: flex;
